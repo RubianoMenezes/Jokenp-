@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://img.freepik.com/-gratis/uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.jpg?t=st=1722896870~exp=1722900470~hmac=5b70c58cee7f478b9a42cd05d51977b2d6519744c51ed5b4a2fbb032cbe4b18a&w=996"); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {    
+    padding: 20px;
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    padding: 10px;
+    font-size: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+#rock {
+    background-color: #8043c7;
+}
+
+#paper {
+    background-color: #338878;
+}
+
+#scissors {
+    background-color: #668f30;
+}
+
+p{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+    color: #7f2ddd
+}
+
+.machine-score span{
+    color:rgb(255, 94, 0)
+}
