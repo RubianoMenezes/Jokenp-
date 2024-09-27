@@ -71,3 +71,22 @@ p{
 .machine-score span{
     color:rgb(255, 94, 0)
 }
+
+@media screen and (max-width: 555px){
+    button {
+        padding: 10px;
+        font-size: 50px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        transition: opacity 0.5s ease-in-out;
+    }    
+    
+
+    p{
+        font-weight: bold;
+        font-size: 30px;
+      margin-bottom: 10px;
+    }  
+
+} 
