@@ -37,6 +37,5 @@ const playTheGame = (human, machine) => {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
         result.innerHTML = 'Você Perdeu Para a Alexa!'
-        
     }
 }
